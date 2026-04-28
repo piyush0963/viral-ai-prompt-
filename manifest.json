@@ -1,0 +1,21 @@
+{
+  "name": "Viral AI Prompts",
+  "short_name": "AI Prompts",
+  "description": "Discover and use viral AI prompts directly with your favorite AI.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/8b5cf6/ffffff?text=AI",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512/8b5cf6/ffffff?text=AI",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

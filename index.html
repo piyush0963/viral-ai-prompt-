@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viral AI Prompts</title>
+    <meta name="description" content="Discover and use viral AI prompts directly with your favorite AI.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background-effects">
+        <div class="blob purple"></div>
+        <div class="blob blue"></div>
+    </div>
+
+    <header class="glass-header">
+        <h1>AI <span class="highlight">Prompt Hub</span></h1>
+        <p>Elevate your interactions. Discover viral prompts.</p>
+    </header>
+
+    <main class="container">
+        <div class="filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="image-gen">Image Gen</button>
+            <button class="filter-btn" data-category="coding">Coding</button>
+            <button class="filter-btn" data-category="marketing">Marketing</button>
+            <button class="filter-btn" data-category="writing">Writing</button>
+            <button class="filter-btn" data-category="productivity">Productivity</button>
+        </div>
+
+        <div class="prompts-grid" id="prompts-container">
+            <!-- Prompts will be dynamically injected here via JS -->
+        </div>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Prompt copied to clipboard!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
